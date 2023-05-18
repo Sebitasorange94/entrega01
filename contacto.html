@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Images/logo.svg">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@100&family=Wix+Madefor+Text&display=swap" rel="stylesheet">
+
+    <title>Contacto</title>
+</head>
+<body>
+    <header>
+        <img class ="imagenLogo" src="images/logo.png" alt="">
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="cv.html">CV</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Déjame tus datos y me pondré en contacto contigo</h1>
+
+        <div class="contenedorForm">
+            <form>
+                <div class="datosUno">
+                    <label for="nombreapellido">Nombre y Apellido</label>
+                    <input type="text" id="nombreapellido" class="entradasDatos" required>
+                    
+                    <label for="correoelectronico">Correo electrónico</label>
+                    <input type="email" id="correoelectronico" class="entradasDatos" required placeholder="tucorreo@mail.com">
+
+                    <label for="telefono">Teléfono</label>
+                    <input type="tel" id="telefono" class="entradasDatos" required placeholder="(XXX) XXXXXXX ">
+
+
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" cols="70" rows="10" class="entradasDatos" required></textarea >
+                
+
+                   
+                    
+                    <fieldset>
+
+                        <legend>¿Cómo te gustaría que te contactemos?</legend>
+
+                        <label for="radio-email"><input type="radio" name="contacto" 
+                            valiue="email "id="radio-email">Email</label>
+                        
+
+                        <label for="radio-telefono"><input type="radio" name="contacto"
+                            valiue="telkefono "id="radio-telefono"> Teléfono</label> 
+                        
+
+                        <label for="radio-whatsapp"><input type="radio" name="contacto"
+                            valiue="whatsapp "id="radio-whatsapp" checked> Whatsapp</label>                     
+
+                    </fieldset>  
+
+                    <input type="submit" value="Enviar formulario" class="enviar">
+                </div> 
+            </form>
+        </div>        
+        
+    </main>
+
+    <footer>
+        <h3>Todos los derechos reservados - Juan Sebastian Vargas Naranjo</h3>
+    </footer>
+</body>
+</html>
