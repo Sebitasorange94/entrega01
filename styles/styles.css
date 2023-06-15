@@ -253,7 +253,15 @@ nav a:hover{
     float: right;
  }
 
+ .imagenWeb{
+    margin: 0;
+    /* widÇh: 50%; */
+    /* float: top; */
+ }
+
+ 
  .imagenServicios { 
+    display:flex;
     margin: 0 auto;    
     box-shadow: 10px 5px 20px black;
     -moz-box-shadow: 30px -30px  rgba(0,0,0,0.6);
@@ -261,9 +269,10 @@ nav a:hover{
     border-radius:20px;
  }
 
- .contenidoHover{
+ 
+  .contenidoHover{
     display: flex;
-    align-items: center;
+    align-items: center;  
     height: 152px;
     width: 150px;
     padding: 6px;
@@ -286,7 +295,7 @@ nav a:hover{
     visibility: visible;
 }
 
-.contenidoHover2{
+/* .contenidoHover2{
     display: flex;
     align-items: center;
     height: 152px;
@@ -304,13 +313,15 @@ nav a:hover{
  .contenidoHover2 p{
     font-size: 20px;
     padding: 0
- }
+ } */
 
-
+/* 
 .imagenServicios:hover .contenidoHover2{
     opacity:1;
     visibility: visible;
-}
+} */
+
+
 
 #contactoServicios{
     padding: 23px;
