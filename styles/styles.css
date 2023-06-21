@@ -421,3 +421,48 @@ td, th{
 
 
 
+/* Estilos Pestaña de usuario*/
+
+
+.datosUsuario{
+    background-color: #BDCDD6;
+    border-radius: 5%;
+    width: 80%;
+    text-align: center;
+   
+}
+
+
+
+
+
+.contenedorBotones{
+    padding: 10px;
+    margin: 10px;
+}
+
+
+.botonesUsuario{
+    width: 15%;
+    padding: 15px 0;
+    font-size: 15px;
+    font-weight: bold;
+    color: #000;;
+    background-color: #f8e5aa;
+    border: none;
+    border-radius: 5px;
+    transition: 0.5s all;
+    cursor: pointer ;
+}
+
+.botonesUsuario:hover{
+    background-color: #b8a672;
+    transform: scale(0.9);
+}
+
+/* Quitar flechas de los campos de tipo numero */
+    input[type="number"]::-webkit-inner-spin-button,
+    input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+  margin: 0;
+}
